@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite  name="MyTest"     parallel = "tests">
+    <test name="Parallel">
+        <classes name = "TestRunner.TestRunner">
+        </classes>
+    </test>
+    <test name="Parallel2">
+        <classes name = "TestRunnerParallel.TestRunnerParallel">
+        </classes>
+    </test>
+</suite>
