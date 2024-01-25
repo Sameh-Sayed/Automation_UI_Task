@@ -1,4 +1,4 @@
-package com.saucedemo.base;
+package com.swinji.base;
 
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -22,7 +22,7 @@ public class Base {
 
     public Base(){
         try {
-            File file =new File("src/main/java/com/saucedemo/properties/config.properties");
+            File file =new File("src/main/java/com/swinji/properties/config.properties");
             FileInputStream fls = new FileInputStream(file);
             props.load(fls);
         }catch (FileNotFoundException e){

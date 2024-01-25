@@ -6,7 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Cucumber_Saucedemo_Assignment" />
+        <module name="Automation_UI_Task" />
       </profile>
     </annotationProcessing>
   </component>
